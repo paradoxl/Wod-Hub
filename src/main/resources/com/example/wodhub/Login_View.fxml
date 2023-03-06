@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="485.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="157.0" layoutY="265.0" promptText="Username" />
+      <TextField layoutX="157.0" layoutY="323.0" promptText="Password" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="142.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/5eb3c070c8c4590004435129.png" />
+         </image></ImageView>
+      <Button layoutX="213.0" layoutY="374.0" mnemonicParsing="false" text="Log In" />
+      <Button layoutX="180.0" layoutY="428.0" mnemonicParsing="false" text="Forgot Password" />
+   </children>
+</Pane>
