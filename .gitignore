@@ -38,3 +38,7 @@ build/
 .DS_Store
 
 MongoConnection.java
+
+src/main/java/com/example/wodhub/blah.java
+
+src/main/java/com/example/wodhub/MongoCON.java
