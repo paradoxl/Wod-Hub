@@ -18,6 +18,8 @@ public class main extends Application {
     }
 
     public static void main(String[] args) {
+        MongoCON DBCON = new MongoCON();
+        DBCON.open();
         launch();
     }
 }
